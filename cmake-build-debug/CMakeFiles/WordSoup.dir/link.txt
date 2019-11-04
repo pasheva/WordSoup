@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/WordSoup.dir/main.cpp.o  -o WordSoup 
