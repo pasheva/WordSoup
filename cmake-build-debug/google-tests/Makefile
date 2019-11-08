@@ -48,10 +48,10 @@ RM = /usr/local/clion-2019.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/riya/141/WordSoup
+CMAKE_SOURCE_DIR = /home/riya/WordSearch
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/riya/141/WordSoup/cmake-build-debug
+CMAKE_BINARY_DIR = /home/riya/WordSearch/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/riya/141/WordSoup/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/riya/141/WordSoup/cmake-build-debug/CMakeFiles /home/riya/141/WordSoup/cmake-build-debug/google-tests/CMakeFiles/progress.marks
-	cd /home/riya/141/WordSoup/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 google-tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/riya/141/WordSoup/cmake-build-debug/CMakeFiles 0
+	cd /home/riya/WordSearch/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/riya/WordSearch/cmake-build-debug/CMakeFiles /home/riya/WordSearch/cmake-build-debug/google-tests/CMakeFiles/progress.marks
+	cd /home/riya/WordSearch/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 google-tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/riya/WordSearch/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/riya/141/WordSoup/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 google-tests/clean
+	cd /home/riya/WordSearch/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 google-tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/riya/141/WordSoup/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 google-tests/preinstall
+	cd /home/riya/WordSearch/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 google-tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/riya/141/WordSoup/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 google-tests/preinstall
+	cd /home/riya/WordSearch/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 google-tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/riya/141/WordSoup/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/riya/WordSearch/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 google-tests/CMakeFiles/Google_Tests_run.dir/rule:
-	cd /home/riya/141/WordSoup/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 google-tests/CMakeFiles/Google_Tests_run.dir/rule
+	cd /home/riya/WordSearch/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 google-tests/CMakeFiles/Google_Tests_run.dir/rule
 .PHONY : google-tests/CMakeFiles/Google_Tests_run.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ Google_Tests_run: google-tests/CMakeFiles/Google_Tests_run.dir/rule
 
 # fast build rule for target.
 Google_Tests_run/fast:
-	cd /home/riya/141/WordSoup/cmake-build-debug && $(MAKE) -f google-tests/CMakeFiles/Google_Tests_run.dir/build.make google-tests/CMakeFiles/Google_Tests_run.dir/build
+	cd /home/riya/WordSearch/cmake-build-debug && $(MAKE) -f google-tests/CMakeFiles/Google_Tests_run.dir/build.make google-tests/CMakeFiles/Google_Tests_run.dir/build
 .PHONY : Google_Tests_run/fast
 
 MainTest.o: MainTest.cpp.o
@@ -177,7 +177,7 @@ MainTest.o: MainTest.cpp.o
 
 # target to build an object file
 MainTest.cpp.o:
-	cd /home/riya/141/WordSoup/cmake-build-debug && $(MAKE) -f google-tests/CMakeFiles/Google_Tests_run.dir/build.make google-tests/CMakeFiles/Google_Tests_run.dir/MainTest.cpp.o
+	cd /home/riya/WordSearch/cmake-build-debug && $(MAKE) -f google-tests/CMakeFiles/Google_Tests_run.dir/build.make google-tests/CMakeFiles/Google_Tests_run.dir/MainTest.cpp.o
 .PHONY : MainTest.cpp.o
 
 MainTest.i: MainTest.cpp.i
@@ -186,7 +186,7 @@ MainTest.i: MainTest.cpp.i
 
 # target to preprocess a source file
 MainTest.cpp.i:
-	cd /home/riya/141/WordSoup/cmake-build-debug && $(MAKE) -f google-tests/CMakeFiles/Google_Tests_run.dir/build.make google-tests/CMakeFiles/Google_Tests_run.dir/MainTest.cpp.i
+	cd /home/riya/WordSearch/cmake-build-debug && $(MAKE) -f google-tests/CMakeFiles/Google_Tests_run.dir/build.make google-tests/CMakeFiles/Google_Tests_run.dir/MainTest.cpp.i
 .PHONY : MainTest.cpp.i
 
 MainTest.s: MainTest.cpp.s
@@ -195,7 +195,7 @@ MainTest.s: MainTest.cpp.s
 
 # target to generate assembly for a file
 MainTest.cpp.s:
-	cd /home/riya/141/WordSoup/cmake-build-debug && $(MAKE) -f google-tests/CMakeFiles/Google_Tests_run.dir/build.make google-tests/CMakeFiles/Google_Tests_run.dir/MainTest.cpp.s
+	cd /home/riya/WordSearch/cmake-build-debug && $(MAKE) -f google-tests/CMakeFiles/Google_Tests_run.dir/build.make google-tests/CMakeFiles/Google_Tests_run.dir/MainTest.cpp.s
 .PHONY : MainTest.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/riya/141/WordSoup/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/riya/WordSearch/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/riya/141/WordSoup/main.cpp" "/home/riya/141/WordSoup/cmake-build-debug/CMakeFiles/WordSoup.dir/main.cpp.o"
+  "/home/riya/WordSearch/main.cpp" "/home/riya/WordSearch/cmake-build-debug/CMakeFiles/WordSoup.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

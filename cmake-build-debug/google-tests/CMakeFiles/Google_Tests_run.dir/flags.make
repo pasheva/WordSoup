@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/riya/141/WordSoup/google-tests/lib/googletest/include -isystem /home/riya/141/WordSoup/google-tests/lib/googletest 
+CXX_INCLUDES = -isystem /home/riya/WordSearch/google-tests/lib/googletest/include -isystem /home/riya/WordSearch/google-tests/lib/googletest 
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTH
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/riya/141/WordSoup/google-tests/lib/googlemock/include -I/home/riya/141/WordSoup/google-tests/lib/googlemock -isystem /home/riya/141/WordSoup/google-tests/lib/googletest/include -isystem /home/riya/141/WordSoup/google-tests/lib/googletest 
+CXX_INCLUDES = -I/home/riya/WordSearch/google-tests/lib/googlemock/include -I/home/riya/WordSearch/google-tests/lib/googlemock -isystem /home/riya/WordSearch/google-tests/lib/googletest/include -isystem /home/riya/WordSearch/google-tests/lib/googletest 
 
